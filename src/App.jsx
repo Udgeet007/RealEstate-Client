@@ -5,6 +5,7 @@ import SignUp from './Pages/SignUp';
 import Profile from './Pages/Profile';
 import SignIn from './Pages/SignIn';
 import Header from "./Components/Header";
+  import { ToastContainer } from 'react-toastify';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="/signup" element={<SignUp/>}/>
       <Route path="/signin" element={<SignIn/>}/>
     </Routes>
+    <ToastContainer/>
     </BrowserRouter>
     </>
   )
