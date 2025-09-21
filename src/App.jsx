@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Home  from './Pages/Home';
-import About from "./Pages/About";
-import SignUp from './Pages/SignUp';
-import Profile from './Pages/Profile';
-import SignIn from './Pages/SignIn';
-import Header from "./Components/Header";
+import Home  from './pages/Home';
+import About from "./pages/About";
+import SignUp from './pages/SignUp';
+import Profile from './pages/Profile';
+import SignIn from './pages/SignIn';
+import Header from "./components/Header";
   import { ToastContainer } from 'react-toastify';
 
 function App() {
